@@ -1,0 +1,190 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+h2, h3 {
+    color: #333;
+    text-align: center;
+}
+hr {
+    border: none;
+    height: 2px;
+    background: #ccc;
+    margin: 40px 0;
+}
+
+/* Завдання 1 */
+.info-table {
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+.info-table td {
+	padding: 16px;
+	text-align: center;
+	font-size: 18px;
+	border: 2px solid #333;
+	width: 20%;
+}
+.info-table tr:nth-child(1) {
+	background-color: #068f8f;
+	color: #0B0B0B;
+}
+.info-table tr:nth-child(2) {
+	background-color: #f5f506;
+	color: #3F3F3F;
+}
+.info-table tr:nth-child(1):hover {
+	background-color: #f5f506;
+	color: #3F3F3F;
+}
+.info-table tr:nth-child(2):hover {
+	background-color: #068f8f;
+	color: #0B0B0B;
+}
+
+/* Завдання 2 */
+.phone-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.phone {
+    width: 200px;
+    height: 350px;
+    background: #d0f0c8;
+    border: 5px solid #000;
+    border-radius: 30px;
+    box-sizing: border-box;
+	padding: 15px;
+}
+.screen-container {
+	height: 50%;
+}
+.screen {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    background: white;
+	border: 4px solid #000;
+    border-radius: 20px;
+    width: 160px;
+    text-align: center;
+	box-sizing: border-box;
+	height: 100%;
+}
+.time {
+}
+.keys-container {
+}
+.keys {
+}
+.key {
+    width: 50px;
+    height: 50px;
+    background: #3f3151;
+    border-radius: 50%;
+	box-sizing: border-box;
+	border: 4px solid #000;
+}
+
+/* Завдання 2.1 За допомогою position */
+.screen-container-pos {
+	position: relative;
+}
+.screen-pos {
+}
+.time-pos {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+}
+.keys-container-pos {
+	position: relative;
+}
+.keys-pos {
+	position: absolute;
+	top: 5px;
+}
+.key-pos {
+	position: absolute;
+}
+
+.key1-pos {
+}
+.key2-pos {
+	left: 55px;
+}
+.key3-pos {
+
+	left: 110px;
+}
+.key4-pos {
+	top: 55px;
+}
+.key5-pos {
+	top: 55px;
+	left: 55px;
+}
+.key6-pos {
+	top: 55px;
+	left: 110px;
+}
+.key7-pos {
+	top: 110px;
+}
+.key8-pos {
+	top: 110px;
+	left: 55px;
+}
+.key9-pos {
+	top: 110px;
+	left: 110px;
+}
+
+/* Завдання 2.2: За допомогою transform */
+.screen-container-trans {
+}
+.screen-trans {
+}
+.time-trans {
+	display: inline-block;
+	transform: translateY(120%);
+}
+.keys-container-trans {
+	transform: translateY(5px);
+}
+.keys-trans {
+}
+.key-trans {
+}
+
+.key1-trans {
+}
+.key2-trans {
+	transform: translate(55px, -50px);
+}
+.key3-trans {
+	transform: translate(110px, -100px);
+}
+.key4-trans {
+	transform: translate(0, -95px);
+}
+.key5-trans {
+	transform: translate(55px, -145px);
+}
+.key6-trans {
+	transform: translate(110px, -195px);
+}
+.key7-trans {
+	transform: translate(0, -190px);
+}
+.key8-trans {
+	transform: translate(55px, -240px);
+}
+.key9-trans {
+	transform: translate(110px, -290px);
+}
