@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+.container {
+	height: 100vh;
+}
+.text {
+	font-size: 24px;
+    font-weight: bold;
+}
+.block1 {
+	background-color: #70a7df;
+}
+.block2 {
+	background-color: #fac0f6;
+}
+.block3-4 {
+}
+.block3 {
+	background-color: #bce68b;
+}
+.block4 {
+	background-color: #93b071;
+}
+
+/* Завдання 1 */
+.container-float {
+}
+.text-float {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.block1-float, .block2-float, .block3-float, .block4-float {
+	position: relative;
+}
+.block1-float {
+	height: 18.75%;
+}
+.block2-float {
+	height: 16.25%;
+}
+.block3-4-float {
+	height: 65%;
+}
+.block3-float {
+	float: left;
+	width: 75%;
+	height: 100%;
+}
+.block4-float {
+	float: right;
+	width: 25%;
+	height: 100%;
+}
+
+/* Завдання 2 */
+.container-flex {
+	display: flex;
+	flex-direction: column;
+}
+.text-flex {
+}
+.block1-flex, .block2-flex, .block3-flex, .block4-flex {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block1-flex {
+	flex-basis: 18.75%;
+}
+.block2-flex {
+	flex-basis: 16.25%;
+}
+.block3-4-flex {
+	flex-basis: 65%;
+	display: flex;
+	flex-direction: row;
+}
+.block3-flex {
+	flex-basis: 75%;
+}
+.block4-flex {
+	flex-basis: 25%;
+}
