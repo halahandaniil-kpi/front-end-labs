@@ -1,0 +1,18 @@
+#out{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card{
+    width: 260px;
+    background: #f2f2f2;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
